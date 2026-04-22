@@ -1,0 +1,40 @@
+# ── Rapports générés ──────────────────────────────────────────────────────────
+# Dossier de sortie local (créé dans Documents\SantePC)
+SantePC/
+rapport-sante_*.html
+battery-report.xml
+
+# ── Windows ───────────────────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ── PowerShell ────────────────────────────────────────────────────────────────
+# Modules installés localement
+/Modules/
+*.psm1.bak
+*.psd1.bak
+
+# Fichiers de transcription PowerShell
+PowerShell_transcript*.txt
+
+# ── Éditeurs ──────────────────────────────────────────────────────────────────
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# JetBrains / Rider
+.idea/
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+
+# ── Système ───────────────────────────────────────────────────────────────────
+.DS_Store
+*.tmp
+*.temp
+*.log
